@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Constractor - Building Company</title>
+  </head>
+  <body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="container">
+        <div class="header__title">
+          <div class="logo">
+            <img src="img/logo.svg" alt="logo" class="logo-icon" />
+            <p class="company-name">Constractor</p>
+          </div>
+          <a data-target="slide-out" class="burger sidenav-trigger">
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+            <span class="burger_line"></span>
+          </a>
+        </div>
+        <h1 class="h1">Реализуем проекты любой сложности</h1>
+        <h4 class="h4">Стадионы, газопроводы, мосты, дамбы</h4>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+
+      <!-- MENU -->
+
+      <ul id="slide-out" class="sidenav">
+        <li>
+          <a href="#!"><i class="material-icons">home</i>Главная</a>
+        </li>
+        <li>
+          <a href="#about"><i class="material-icons">people</i>О нас</a>
+        </li>
+        <li>
+          <a href="#services"><i class="material-icons">grade</i>Услуги</a>
+        </li>
+        <li>
+          <a href="#contacts"><i class="material-icons">phone</i>Контакты</a>
+        </li>
+        <li><div class="divider"></div></li>
+        <li>
+          <a class="sidenav-close" href="#!"
+            ><i class="material-icons">close</i>Закрыть</a
+          >
+        </li>
+      </ul>
+
+      <!-- ABOUT -->
+
+      <section class="about" id="about">
+        <div class="info">
+          <div class="container">
+            <div class="about_grid">
+              <div class="about__item">
+                <h4 class="about_h4">25</h4>
+                <h6 class="about_h6">лет</h6>
+                <p class="about_p">на рынке</p>
+              </div>
+              <div class="about__item">
+                <h4 class="about_h4">100</h4>
+                <h6 class="about_h6">проектов</h6>
+                <p class="about_p">успешно реализованных</p>
+              </div>
+              <div class="about__item-3">
+                <h4 class="about_h4">1000</h4>
+                <h6 class="about_h6">специалистов</h6>
+                <p class="about_p">в нашей базе профессионалов</p>
+              </div>
+              <div class="about__item-4">
+                <h4 class="about_h4">10000</h4>
+                <h6 class="about_h6">кв.м</h6>
+                <p class="about_p">готовых объектов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- PROJECTS -->
+
+      <section class="projects">
+        <div class="container">
+          <h2 class="text-h2 projects-h2">Наши самые впечатляющие проекты</h2>
+          <div class="projects_flex">
+            <div class="projects__item">
+              <img src="img/Project/Project-1.jpg" alt="about" class="projects-img" />
+              <div class="projects-line"></div>
+              <h3 class="text-h3 projects-h3">Центр</h3>
+              <p class="text-p projects-p">
+                Мы создали самый высокий небоскреб в Европе. Это - прорыв!
+              </p>
+            </div>
+            <div class="projects__item">
+              <img src="img/Project/Project-2.jpg" alt="about" class="projects-img" />
+              <div class="projects-line"></div>
+              <h3 class="text-h3 projects-h3">Стадион</h3>
+              <p class="text-p projects-p">
+                Мы сделали самый красивый стадион в Европе. Это открытие стало для 
+                нас прорывной точкой для развития на следующие десятилетия.
+              </p>
+            </div>
+            <div class="projects__item">
+              <img src="img/Project/Project-3.jpg" alt="about" class="projects-img" />
+              <div class="projects-line"></div>
+              <h3 class="text-h3 projects-h3">Мост</h3>
+              <p class="text-p projects-p">
+                Мы построили самый красивый мост в Европе. Мы очень рады данному событию!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODAL -->
+
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+            impedit molestias eos minima consequuntur corrupti est numquam ipsum
+            animi nisi!
+          </p>
+        </div>
+      </div>
+
+      <!-- REQUEST -->
+
+      <section class="request">
+        <div class="container">
+          <div class="request_flex">
+            <div class="request_flex_left">
+              <h4 class="request_h4">Самые умные проекты</h4>
+              <h5 class="request_h5">
+                Реализуем самые смелые решения в России!
+              </h5>
+            </div>
+            <div class="request_flex_right">
+              <a href="#modal1" class="request_btn modal-trigger">
+                <img src="img/request.svg" alt="request" class="request_icon" />
+                Ваш запрос
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="text-h2 section_h2">Чем мы занимаемся?</h2>
+          <div class="services_grid">
+            <div class="services__item">
+              <img
+                src="img/Services/services-1.svg"
+                alt="services"
+                class="services_icon"
+              />
+              <h4 class="text-h4 services_h4">Промышленные объекты</h4>
+            </div>
+            <div class="services__item">
+              <img
+                src="img/Services/services-2.svg"
+                alt="services"
+                class="services_icon"
+              />
+              <h4 class="text-h4 services_h4">Административные здания</h4>
+            </div>
+            <div class="services__item">
+              <img
+                src="img/Services/services-3.svg"
+                alt="services"
+                class="services_icon"
+              />
+              <h4 class="text-h4 services_h4">Спортивные сооружения</h4>
+            </div>
+            <div class="services__item">
+              <img
+                src="img/Services/services-4.svg"
+                alt="services"
+                class="services_icon"
+              />
+              <h4 class="text-h4 services_h4">Жилые<br>здания</h4>
+            </div>
+            <div class="services__item">
+              <img
+                src="img/Services/services-5.svg"
+                alt="services"
+                class="services_icon"
+              />
+              <h4 class="text-h4 services_h4">Социальные объекты</h4>
+            </div>
+            <div class="services__item">
+              <img
+                src="img/Services/services-6.svg"
+                alt="services"
+                class="services_icon"
+              />
+              <h4 class="text-h4 services_h4">Торговые комплексы</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+
+      <section class="portfolio">
+        <h2 class="text-h2 section_h2">Портфолио</h2>
+        <div class="portfolio_grid">
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+          <div class="portfolio__item">
+            <img
+              src="img/portfolio.jpg"
+              alt="portfolio"
+              class="porfolio_img materialboxed"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- QUESTION -->
+
+      <section class="question">
+        <div class="container">
+          <h2 class="text-h2 section_h2">Ответы на вопросы</h2>
+          <details class="question__item">
+            <summary class="text-h3 question_h3">
+              Lorem ipsum dolor sit amet.
+            </summary>
+            <p class="text-p question_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laborum eligendi, repellendus atque voluptatem vel dolores id illum 
+              reiciendis officiis laudantium nihil aperiam eum voluptas, repudiandae 
+              iusto sunt neque veritatis! Inventore, eos corporis ipsam ex quisquam 
+              hic quasi placeat impedit reiciendis.
+            </p>
+          </details>
+          <details class="question__item" open="open">
+            <summary class="text-h3 question_h3">
+              Lorem ipsum dolor sit amet.
+            </summary>
+            <p class="text-p question_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laborum eligendi, repellendus atque voluptatem vel dolores id illum 
+              reiciendis officiis laudantium nihil aperiam eum voluptas, repudiandae 
+              iusto sunt neque veritatis! Inventore, eos corporis ipsam ex quisquam 
+              hic quasi placeat impedit reiciendis.
+            </p>
+          </details>
+          <details class="question__item">
+            <summary class="text-h3 question_h3">
+              Lorem ipsum dolor sit amet.
+            </summary>
+            <p class="text-p question_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laborum eligendi, repellendus atque voluptatem vel dolores id illum 
+              reiciendis officiis laudantium nihil aperiam eum voluptas, repudiandae 
+              iusto sunt neque veritatis! Inventore, eos corporis ipsam ex quisquam 
+              hic quasi placeat impedit reiciendis.
+            </p>
+          </details>
+          <details class="question__item">
+            <summary class="text-h3 question_h3">
+              Lorem ipsum dolor sit amet.
+            </summary>
+            <p class="text-p question_p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Laborum eligendi, repellendus atque voluptatem vel dolores id illum 
+              reiciendis officiis laudantium nihil aperiam eum voluptas, repudiandae 
+              iusto sunt neque veritatis! Inventore, eos corporis ipsam ex quisquam 
+              hic quasi placeat impedit reiciendis.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- PARTNERS -->
+
+      <section class="partners">
+        <div class="container">
+          <h2 class="text-h2 partners_h2">Наши партнеры</h2>
+          <div class="partners_flex">
+            <div class="partners__item">
+              <img src="img/Partners/partners-1.png" alt="partners" />
+            </div>
+            <div class="partners__item">
+              <img src="img/Partners/partners-2.png" alt="partners" />
+            </div>
+            <div class="partners__item">
+              <img src="img/Partners/partners-3.png" alt="partners" />
+            </div>
+            <div class="partners__item">
+              <img src="img/Partners/partners-4.png" alt="partners" />
+            </div>
+            <div class="partners__item">
+              <img src="img/Partners/partners-5.png" alt="partners" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS -->
+
+      <section class="reviews">
+        <div class="container">
+          <h2 class="text-h2 reviews_h2">Отзывы о работе с нами</h2>
+          <div class="reviews_grid">
+            <div class="reviews__items">
+              <div class="reviews_card">
+                <div class="reviews_quotes">“</div>
+                <p class="text-p-reviews">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum 
+                  eligendi, pellendus atque voluptatem vel dolores id illum reiciendis 
+                  officiis laudantium nihil eriam eum voluptas, repudiandae iusto sunt 
+                  neque veritatis! Inventore, eos corporis ipsam ex quisquam hic quasi placeat.
+                </p>
+              </div>
+              <h4 class="text-h4">
+                Иванов Иван,
+                <span class="reviews_authior_accent">ООО “Конструкция1”</span>
+              </h4>
+            </div>
+            <div class="reviews__items">
+              <div class="reviews_card">
+                <div class="reviews_quotes">“</div>
+                <p class="text-p-reviews">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum 
+                  eligendi, pellendus atque voluptatem vel dolores id illum reiciendis 
+                  officiis laudantium nihil eriam eum voluptas, repudiandae iusto sunt 
+                  neque veritatis! Inventore, eos corporis ipsam ex quisquam hic quasi placeat.
+                </p>
+              </div>
+              <h4 class="text-h4">
+                Иванов Иван,
+                <span class="reviews_authior_accent">ООО “Конструкция”</span>
+              </h4>
+            </div>
+            <div class="reviews__items">
+              <div class="reviews_card">
+                <div class="reviews_quotes">“</div>
+                <p class="text-p-reviews">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum 
+                  eligendi, pellendus atque voluptatem vel dolores id illum reiciendis 
+                  officiis laudantium nihil eriam eum voluptas, repudiandae iusto sunt 
+                  neque veritatis! Inventore, eos corporis ipsam ex quisquam hic quasi placeat.
+                </p>
+              </div>
+              <h4 class="text-h4">
+                Иванов Иван,
+                <span class="reviews_authior_accent">ООО “Конструкция”</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REQUEST -->
+
+      <section class="request">
+        <div class="container">
+          <div class="request_flex">
+            <div class="request_flex_left">
+              <h4 class="request_h4">Хотите с нами работать?</h4>
+              <h5 class="request_h5">Оставьте заявку и мы свяжемся с вами!</h5>
+            </div>
+            <div class="request_flex_right">
+              <a href="#modal1" class="request_btn modal-trigger">
+                <img src="img/request.svg" alt="request" class="request_icon" />
+                Ваш запрос
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <h2 class="text-h2 contacts_h2">Контакты</h2>
+          <div class="contacts_grid">
+            <div class="contacts__item">
+              <img src="img/Contacts/map.svg" alt="location" class="contacts_img" />
+              <h3 class="text-h3 contacts_h3 contacts_h3-gray">Адрес:</h3>
+              <h3 class="text-h3 contacts_h3">
+                Невский проспект 140, <br />офис 140-142
+              </h3>
+            </div>
+            <div class="contacts__item">
+              <img src="img/Contacts/phone.svg" alt="location" class="contacts_img" />
+              <h3 class="text-h3 contacts_h3 contacts_h3-gray">Телефон:</h3>
+              <h3 class="text-h3 contacts_h3">
+                <a href="tel:+78121112233">8 (812) 111-22-33</a>
+                <br />
+                <a href="tel:+78121112233">8 (812) 111-22-33</a>
+              </h3>
+            </div>
+            <div class="contacts__item">
+              <img src="img/Contacts/time.svg" alt="location" class="contacts_img" />
+              <h3 class="text-h3 contacts_h3 contacts_h3-gray">
+                Время работы:
+              </h3>
+              <h3 class="text-h3 contacts_h3">Пн-Сб<br />10:00 - 20:00</h3>
+            </div>
+            <div class="contacts__item">
+              <img src="img/Contacts/mail.svg" alt="location" class="contacts_img" />
+              <h3 class="text-h3 contacts_h3 contacts_h3-gray">E-mail:</h3>
+              <h3 class="text-h3 contacts_h3 contacts_h3-accent">
+                <a href="mailto:info@vip.ru">info@vip.ru</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_flex">
+          <p class="text-p footer_copyright">
+            &copy; 2022 Constractor
+          </p>
+          <p class="text-p footer_brand">Designed by Design-Studio</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back-to-Top Button -->
+    <a href="#" class="back-to-top"><i class="material-icons">arrow_upward</i></a>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
